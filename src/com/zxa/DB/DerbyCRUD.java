@@ -6,6 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+// start Derby by "C:\db-derby-10.14.2.0-bin\bin>startNetworkServer" on command line
 public class DerbyCRUD {
 
 	public static void main(String[] argv) {
