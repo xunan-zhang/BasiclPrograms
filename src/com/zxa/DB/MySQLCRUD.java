@@ -37,7 +37,7 @@ public class MySQLCRUD {
 
 	public static Statement getStatement() {
 
-        String url = "jdbc:mysql://localhost:3306/mydb?user=root&password=Zxa302059!";
+        String url = "jdbc:mysql://localhost:3306/mydb?useSSL=false&user=root&password=Zxa302059!";
 		
         try {
         	DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver());
