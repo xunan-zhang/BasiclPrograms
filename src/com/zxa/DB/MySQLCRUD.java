@@ -23,7 +23,7 @@ public class MySQLCRUD {
 					"mydb?" + 				// db name
 					"useSSL=false&" + 			// do not use ssl
 					"user=root&" + 				// login
-					"password=Zxa302059!"; 		// password
+					"password=xxxx"; 		// password
 
 			Connection conn = DriverManager.getConnection(url);
 			if (conn != null) {
